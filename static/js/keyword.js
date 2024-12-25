@@ -257,6 +257,7 @@ $(function () {
       return item.type === type;
     });
     if (baseUrl && keyword) {
+      keyword = keyword + " -csdn"
       window.open(baseUrl.url + keyword, keyword);
     }
   }
